@@ -1,5 +1,15 @@
 body {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
+    background-color: #fff;
+    color: #212121;
+    font-size: 14px;
+    letter-spacing: 0.00em;
+}
+
+
+ul {
+    margin: 0;
+    list-style: none;
 }
 
 
@@ -8,23 +18,38 @@ body {
 font-style: normal;
 font-weight: 500;
 font-size: 14px;
-line-height: 1,2px;
+line-height: 1,2;
 letter-spacing: 0.02em;
 
 color: #2196F3;
 }
 
+
+.test2:hover {
+    background-color: #188CE8;
+}
+.test2:focus {
+    background-color: #188CE8;
+}
+
 .test2 {
-    background: #2196F3;
-    /* shadow-middle */
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1,6;
+    /* identical to box height, or 162% */
     
-    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-    border-radius: 4px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    cursor: pointer;
+    background-color: #2196F3;
+
+    color: #FFFFFF;
 }
 
 .test1 {
 font-size: 16px;
-line-height: 26px;
+line-height: 1,6;
 /* identical to box height, or 162% */
 
 text-align: center;
@@ -33,6 +58,7 @@ letter-spacing: 0.03em;
 color: #FFFFFF;
 }
 
+
 .test4 {
     /* Footer bg */
 
@@ -40,41 +66,65 @@ color: #FFFFFF;
 background: #2F303A;
 }
 
+
+.test5:hover {
+    background-color: #2196F3;
+}
+.test5:focus {
+    background-color: #2196F3;
+}
+
 .test5 {
     font-family: 'Roboto';
-font-style: normal;
 font-weight: 400;
 font-size: 14px;
-line-height: 24px;
+line-height: 1,7;
 /* or 171% */
 
 letter-spacing: 0.03em;
+text-decoration: none;
 
 color: #FFFFFF;
 }
 
+
+.test6:hover {
+    background-color: #2196F3;
+}
+.test6:focus {
+    background-color: #2196F3;
+}
+
 .test6 {
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1,7;
     /* or 171% */
     
     letter-spacing: 0.03em;
+    text-decoration: none;
     
     color: rgba(255, 255, 255, 0.6);
 }
 
+
+.test7:hover {
+    background-color: #2196F3;
+}
+.test7:focus {
+    background-color: #2196F3;
+}
+
 .test7 {
     font-family: 'Roboto';
-font-style: normal;
 font-weight: 400;
 font-size: 14px;
-line-height: 24px;
+line-height: 1,7;
 /* or 171% */
 
 letter-spacing: 0.03em;
+text-decoration: none;
 
 color: rgba(255, 255, 255, 0.6);
 }
@@ -83,17 +133,41 @@ color: rgba(255, 255, 255, 0.6);
     background: #E5E5E5;
 }
 
-.test9 {
-background: #F5F4FA;
-border-radius: 4px;
+
+.test9:hover {
+    background-color: #F5F4FA;
 }
+.test9:focus {
+    background-color: #F5F4FA;
+}
+
+
+.test9 {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1,6;
+    /* identical to box height, or 162% */
+    
+    text-align: center;
+    letter-spacing: 0.03em;
+    cursor: pointer;
+    color: #212121;
+}
+
+.test10:hover {
+    background-color: #2196F3;
+}
+.test10:focus {
+    background-color: #2196F3;
+}
+
 
 .test10 {
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1,14;
     letter-spacing: 0.02em;
     
     color: #212121; 
@@ -101,28 +175,34 @@ border-radius: 4px;
 
 .test11 {
     font-family: 'Raleway';
-font-style: normal;
 font-weight: 700;
 font-size: 26px;
-line-height: 31px;
+line-height: 1,19;
 /* identical to box height */
 
 letter-spacing: 0.03em;
 
 color: #2196F3;
+text-decoration: none;
+}
+
+
+.test12:hover {
+    background-color: #2196F3;
+}
+.test12:focus {
+    background-color: #2196F3;
 }
 
 .test12 {
     font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 14px;
-    line-height: 24px;
-    /* or 171% */
+    line-height: 1,14;
+    letter-spacing: 0.02em;
     
-    letter-spacing: 0.03em;
+    color: #757575;
     
-    color: rgba(117, 117, 117);
 }
 
 .test13 {
@@ -130,7 +210,7 @@ color: #2196F3;
 font-style: normal;
 font-weight: 400;
 font-size: 16px;
-line-height: 30px;
+line-height: 1,87;
 /* identical to box height, or 188% */
 
 letter-spacing: 0.03em;
@@ -140,25 +220,95 @@ color: #757575;
 
 .test14 {
     font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 18px;
-line-height: 36px;
-/* identical to box height, or 200% */
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    /* identical to box height, or 200% */
+    
+    letter-spacing: 0.06em;
+    
+    color: #212121;
+}
 
-letter-spacing: 0.06em;
+.test15 {
+    font-family: 'Roboto';
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1,36;
+    /* or 136% */
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.test17{
+background-color: #2F303A;
+}
+
+.test18 {
+    font-family: 'Roboto';
+font-weight: 700;
+font-size: 16px;
+line-height: 1,87;
+letter-spacing: 0.00em;
+cursor: pointer;
+color: #FFFFFF;
+background-color: #2196F3;
+}
+
+.test18:hover {
+    background-color: #188CE8;
+}
+.test18:focus {
+    background-color: #188CE8;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+
+  .test19 {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1,14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    
+    color: #212121;
+  }
+
+
+.test20 {
+    font-family: 'Roboto';
+font-weight: 700;
+font-size: 36px;
+line-height: 1,16;
+letter-spacing: 0.03em;
 
 color: #212121;
 }
 
-.test15 {
-    /* Bg */
-background: #2F303A;
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 900;
-font-size: 44px;
-line-height: 60px;
-
-color: #FFFFFF;
+.test21 {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1,18;
+    /* identical to box height */
+    
+    letter-spacing: 0.03em;
+    
+    color: #212121; 
 }
+
+
+
