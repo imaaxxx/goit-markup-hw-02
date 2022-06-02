@@ -277,10 +277,10 @@ color: rgba(255, 255, 255, 0.6);
 
 
 .button--2:hover {
-    background-color: #F5F4FA;
+    color: var(--brand-blue-color);
 }
 .button--2:focus {
-    background-color: #F5F4FA;
+    color: var(--brand-blue-color);
 }
 
 
@@ -295,6 +295,7 @@ color: rgba(255, 255, 255, 0.6);
     letter-spacing: 0.03em;
     cursor: pointer;
     color: var(--brand-color);
+    background-color: #F5F4FA;
 }
 
 
