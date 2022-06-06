@@ -45,6 +45,25 @@ ul {
 }
 
 
+/* ---------------------HEADER----------------------------- */
+
+.header {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.logo-header {font-family: 'Raleway',sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    color:var(--brand-blue-color);
+    margin-right: 93px;
+    display: flex;
+}
+
+
 .header--list {
     display: flex;
     justify-content:space-between;
@@ -61,13 +80,14 @@ align-items: center;
 }
 
 
-
 .header--list2 {
     display: flex;
     justify-content:space-between;
     margin-left: auto;
 }
 
+
+/* --------------HERO----------------------------*/
 
 
 .container .benefits{
@@ -102,23 +122,10 @@ text-align: center;
 
 
 
-.header {
-    padding-top: 24px;
-    padding-bottom: 24px;
-}
 
 
 
-.logo-header {font-family: 'Raleway',sans-serif;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
-    text-decoration: none;
-    color:var(--brand-blue-color);
-    margin-right: 93px;
-    display: flex;
-}
+
     
     .logo-accent1 {
         color: var(--brand-color);
@@ -422,6 +429,19 @@ color: var(--brand-white-color);
     justify-content:space-between; 
 }
 
+
+.galery--list {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -15px;
+}
+
+.galery--item {
+    width: calc(100% / 3 - 30px);
+    margin: 15px;
+}
+
+
 .subtitle {
     font-family: 'Roboto';
     font-weight: 700;
@@ -488,11 +508,6 @@ background-color: #F5F4FA;
 }
 
 
-.team--list {
-    display: flex;
-    margin-right: 30px;
-    padding-bottom: 0;
-}
 
 
 
@@ -548,8 +563,10 @@ color: var(--brand-color);
 .team--list {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+    margin: -15px;
+    outline: 2px solid tomato;
 }
-
 
 
 .team--item {
@@ -560,7 +577,10 @@ color: var(--brand-color);
     margin-bottom: 94px;
     border-radius: 0px 0px 4px 4px;
     background-color: var(--brand-white-color);
+    outline: 2px solid tomato;
 }
+
+
 
 
 
