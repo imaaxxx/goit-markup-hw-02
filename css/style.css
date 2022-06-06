@@ -297,7 +297,7 @@ margin-right: 50px;
     color:var(--brand-white-color);
 }
 
-
+/* -----------------FOOTER--------------------------- */
 .footer {
     /* Footer bg */
 background: #2F303A;
@@ -519,11 +519,12 @@ color: var(--brand-color);
 
 .contanier--team {
     display: flex;
-    /* justify-content:space-between; */
+    justify-content:center;
+    align-items: center;
     width: 1200px;
     margin: 0 auto;
-    padding-left: 15px;
-    padding-right: 15px;
+    /* padding-left: 15px;
+    padding-right: 15px; */
     outline: 2px solid tomato;
     /* margin-left: auto;
     margin-right: auto; */
@@ -586,7 +587,6 @@ color: var(--brand-color);
     background-color: var(--brand-white-color);
     outline: 2px solid tomato;
 }
-
 
 
 
