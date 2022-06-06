@@ -288,7 +288,7 @@ margin-right: 50px;
     font-size: 16px;
     line-height: 1.6;
     /* identical to box height, or 162% */
-    
+    margin-right: 30px;
     text-align: center;
     letter-spacing: 0.03em;
     cursor: pointer;
@@ -387,7 +387,7 @@ color: var(--brand-white-color);
     font-size: 16px;
     line-height: 1.6;
     /* identical to box height, or 162% */
-    
+    margin-right: 30px;
     text-align: center;
     letter-spacing: 0.03em;
     cursor: pointer;
@@ -548,7 +548,8 @@ color: var(--brand-color);
 
 .activity--button2 {
     display: flex;
-    justify-content:space-between;
+    justify-content:center;
+    align-items: center;
 }
 
 
