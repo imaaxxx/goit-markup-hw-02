@@ -251,9 +251,10 @@ margin-right: 50px;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    
+    margin-right: 50px;    
     color: #757575;
     text-decoration: none;
+
     
 }
 
@@ -300,6 +301,7 @@ margin-right: 50px;
 .footer {
     /* Footer bg */
 background: #2F303A;
+
 }
 
 
@@ -567,6 +569,7 @@ color: var(--brand-color);
     flex-wrap: wrap;
     /* margin: -15px; */
     outline: 2px solid tomato;
+    margin-right: 30px;
 }
 
 
