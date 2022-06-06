@@ -519,12 +519,14 @@ color: var(--brand-color);
 
 .contanier--team {
     display: flex;
-    justify-content:space-between;
+    /* justify-content:space-between; */
     width: 1200px;
     margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
     outline: 2px solid tomato;
+    /* margin-left: auto;
+    margin-right: auto; */
 }
 
 
@@ -537,9 +539,9 @@ font-size: 36px;
 line-height: 1.16;
 letter-spacing: 0.03em;
 text-align: center;
-padding-top: 94px;
-padding-bottom: 50px;
-
+/* padding-top: 94px; */
+/* padding-bottom: 50px; */
+margin-bottom: 50px;
 color: var(--brand-color);
 }
 
